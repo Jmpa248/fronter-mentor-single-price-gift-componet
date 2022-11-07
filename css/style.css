@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,700;1,400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(204, 43%, 93%);
+}
+
+ul,
+ol {
+    padding-left: 0%;
+    list-style-type: none;
+}
+
+
+.contenedor {
+    max-width: 900px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.secciones {
+    display: flex;
+    flex-wrap: wrap;
+    color: hsl(204, 43%, 93%);
+}
+
+.secciones section {
+    flex-basis: 50%;
+    /*auto*/
+    flex-shrink: 1;
+    /*1*/
+    flex-grow: 1;
+    /*0*/
+}
+
+.titulo-principal {
+    color: hsl(179, 62%, 43%);
+
+}
+
+.t1 {
+    color: hsl(71, 73%, 54%);
+}
+
+
+.btn {
+    background-color: hsl(71, 73%, 54%);
+    padding: 10px 100px;
+    border: 0ch;
+    color: hsl(204, 43%, 93%);
+    border-radius: 5px;
+    box-shadow: 0px 8px 15px rgb(6, 67, 41);
+}
+
+.btn:hover {
+    background-color: rgb(203, 196, 196)
+}
+
+body {
+    background-color: var();
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+
+/* :root (mayor especificado) = html */
+:root¨ {
+    --color-primario1: hsl(179, 62%, 43%);
+    --color-secundario2: hsl(71, 73%, 54%);
+    --color-secundario1: hsl(204, 43%, 93%);
+    --color-secundario2: hsl(218, 22%, 67%);
+}
+
+.parrafo1 {
+    color: hsl(218, 22%, 67%);
+}
+
+.seccion {
+    padding: 50px;
+}
+
+.seccion-principal {
+    padding: 50px;
+    background-color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+}
+
+.prueba {
+    background: hsl(179, 62%, 43%);
+    border-bottom-left-radius: 8px;
+}
+
+.prueba2 {
+    background: hsl(179, 83%, 43%);
+    border-bottom-right-radius: 8px;
+}
+
+.nombre {
+    color: hsl(204, 43%, 93%);
+}
+
+.dollar {
+    font-size: 30px;
+
+}
+
+.mes {
+    color: hsl(204, 40%, 75%);
+
+}
